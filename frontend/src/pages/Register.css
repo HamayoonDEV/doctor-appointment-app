@@ -1,0 +1,34 @@
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+    
+}
+.register-btn{
+    background-color: skyblue;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid blue;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.register-btn:hover{
+    border: 1px solid red;
+}
+
+.register-btn2{
+    border: none;
+    background: transparent;
+    color: green;
+    font-size: 12px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+
+}
